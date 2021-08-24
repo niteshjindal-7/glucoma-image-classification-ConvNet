@@ -43,7 +43,7 @@ input_shape= input image shape, which is (150,150,3).
 
 Then, we have MaxPooling that reduces the spatial size of convolved features.That is, it reduces the dimensions of a image by extracting the maximum value from the image portion captured by a max pool 2*2 filter. Then, flattening the output of convolution network layers to convert the data in 1-dimensional form before connecting it to the fully- connected layer followed by the output layer. Lastly, activation function in the output is sigmoid function because of the binary response.
 
-Before jumping to training the model, we have used `ImageDataGenerator` which accepts the input data, randomly transforms it, and returns the new transformed data. To put it another way, we do not get the original data but the transformed data i.e. input data is slightly modified versions of the original input data and the network is able to learn more robust features.
+Before training part, we have used `ImageDataGenerator` which accepts the input data, randomly transforms it, and returns the new transformed data. To put it another way, we do not get the original data but the transformed data i.e. input data is slightly modified versions of the original input data and the network is able to learn more robust features.
 
 
 While training, we have used the `ModelCheckpoint()` which saves the best model of the several iterations where the loss is minimum.Model will be saved to the path if there happens any improvement in loss.
