@@ -52,3 +52,20 @@ As per our results, we observe that the loss has consistently decreased and was 
 Accuracy in final epoch on train set=0.96; Accuracy on test set=0.75.
 
 This difference can be attributed to the imbalanced dataset as well as the size of dataset.However, it can be further improved in many ways. One way is to develop algorithm to segment postive and negative glucoma images from the repository. Once we get the huge labelled data and train model on it, the difference will certainly shrink. Also, tuning of the filter parameters definitely improves the model performance on test set.
+
+
+**References:-**
+
+https://arxiv.org/ftp/arxiv/papers/1506/1506.01195.pdf
+
+https://keras.io/api/layers/convolution_layers/convolution2d/
+
+#https://arxiv.org/abs/2004.13529  
+
+#file:///C:/Users/AG89382/Downloads/data-06-00014.pdf
+
+#https://ieee-dataport.org/documents/1450-fundus-images-899-glaucoma-data-and-551-normal-data
+
+#https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0263-7
+
+#https://www.pyimagesearch.com/2019/07/08/keras-imagedatagenerator-and-data-augmentation/
