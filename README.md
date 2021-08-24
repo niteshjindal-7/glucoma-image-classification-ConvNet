@@ -60,12 +60,12 @@ https://arxiv.org/ftp/arxiv/papers/1506/1506.01195.pdf
 
 https://keras.io/api/layers/convolution_layers/convolution2d/
 
-#https://arxiv.org/abs/2004.13529  
+https://arxiv.org/abs/2004.13529  
 
-#file:///C:/Users/AG89382/Downloads/data-06-00014.pdf
+file:///C:/Users/AG89382/Downloads/data-06-00014.pdf
 
-#https://ieee-dataport.org/documents/1450-fundus-images-899-glaucoma-data-and-551-normal-data
+https://ieee-dataport.org/documents/1450-fundus-images-899-glaucoma-data-and-551-normal-data
 
-#https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0263-7
+https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0263-7
 
-#https://www.pyimagesearch.com/2019/07/08/keras-imagedatagenerator-and-data-augmentation/
+https://www.pyimagesearch.com/2019/07/08/keras-imagedatagenerator-and-data-augmentation/
