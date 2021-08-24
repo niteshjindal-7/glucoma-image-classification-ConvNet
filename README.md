@@ -1,4 +1,4 @@
-# glucome-image-classification-ConvNet
+# glucoma-image-classification-ConvNet
 
 The high-level way a convolution neural network works is as follows-
 
