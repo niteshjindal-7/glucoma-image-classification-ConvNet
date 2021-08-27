@@ -16,12 +16,8 @@ However, for demonstration purpose, we have taken a sample images from the given
 
 https://drive.google.com/drive/folders/1PiD-fEoBVfvNUmhsmk4lVMxwbqKIiZXd?usp=sharing 
 
-, collating all the postive and negative images.
-        That is, temp_imgs contains all positive+negative images, whereas temp_labels contains all postive+negative image labels.
-        Please note that images are labelled 1 for positive and 0 for negative.
 
-
-In our example, we defined all pathnames where we have stored train data and test data.Then, we collated all the postive and negative images in a directory.We manage to label the images with 1 being positive image and 0 being negative/normal image.
+In our example, we defined all pathnames where we have stored train data and test data.Then, we collated all the postive and negative images in a directory.We labelled the images with 1 being positive image and 0 being negative/normal image.
 
 For reading images, we use `imread()` function from opencv module and stored then as 4D tensor of shape ( samples, height, width, channels). Since, these are colored images, we have three channels(R,G,B). We then resized the image to shape (150,150,3) and there were such 156 sample as evident in [glucoma-image-classification.ipynb].
 
